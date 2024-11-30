@@ -8,32 +8,33 @@ This is not a production ready library, although it does train fairly well. It i
 
 This will run without any modification so long as the dependencies as installed. It defaults to writing a few files to disk, the .dat file it saves for training which can be up to a gig or more depending on the size chosen (I believe small is ~600mb), a .txt file with the information from the last run, and a .txt file that it saves its training step number into so trianing can be executed in time sequences.
 
-#Package Manager Console
+# Package Manager Console  
+
 Use these commands to install dependancies if they are not included or if replicating.
 
- - For Tiktoken (required)
+ - For Tiktoken (required)  
    Install-Package Microsoft.ML.Tokenizers -Version 0.22.0-preview.24378.1
 
-- For TorchSharp (required)
+- For TorchSharp (required)  
    Install-Package TorchSharp -Version 0.103.0
 
-*libtorch configuration:*
+*libtorch configuration:*  
 1. Go to Packages in the Solution Explorer, and remove the libtorch reference.
 2. Open the Package Manager Console and Install the proper configuration from below
 3. Publish/Run
 
 
--For libtorch (required)
-Depending on where you train / generate.... you will need to modify the libtorch reference
+*For libtorch (required)*    
+Depending on where you train / generate.... you will need to modify the libtorch reference  
 
--Windows CPU (default)
+- Windows CPU (default)  
 Install-Package libtorch-cpu-win-x64 -Version 2.4.0
 
--Windows GPU (Note: this requires a good amount of space)
+- Windows GPU (Note: this requires a good amount of space)  
 Install-Package libtorch-cuda-12.1-win-x64 -Version 2.4.0
 
--Linux CPU
+- Linux CPU
 Install-Package libtorch-cpu-linux-x64 -Version 2.4.0
 
--Linux GPU (Note: this requires a good amount of space)
+- Linux GPU (Note: this requires a good amount of space)
 Install-Package libtorch-cuda-12.1-linux-x64 -Version 2.4.0
