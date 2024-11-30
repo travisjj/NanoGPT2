@@ -10,7 +10,7 @@ This will run without any modification so long as the dependencies are installed
 
 # Package Manager Console  
 
-Use these commands to install dependancies if they are not included or if replicating.
+Use these commands to install dependencies if they are not included or if replicating.
 
  - For Tiktoken (required)  
    Install-Package Microsoft.ML.Tokenizers -Version 0.22.0-preview.24378.1
