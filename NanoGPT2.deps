@@ -1,0 +1,464 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0/linux-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {},
+    ".NETCoreApp,Version=v8.0/linux-x64": {
+      "NanoGPT2/1.0.0": {
+        "dependencies": {
+          "Microsoft.ML.Tokenizers": "0.22.0-preview.24378.1",
+          "TorchSharp": "0.103.0",
+          "libtorch-cuda-12.1-linux-x64": "2.4.0"
+        },
+        "runtime": {
+          "NanoGPT2.dll": {}
+        }
+      },
+      "Google.Protobuf/3.21.9": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.21.9.0",
+            "fileVersion": "3.21.9.0"
+          }
+        }
+      },
+      "libtorch-cuda-12.1-linux-x64/2.4.0": {
+        "dependencies": {
+          "libtorch-cuda-12.1-linux-x64-part1": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part2-fragment1": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part2-primary": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part3-fragment1": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part3-fragment2": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part3-fragment3": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part3-fragment4": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part3-primary": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part4-fragment1": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part4-primary": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part5-fragment1": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part5-primary": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part6": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part7-fragment1": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part7-primary": "2.4.0",
+          "libtorch-cuda-12.1-linux-x64-part8": "2.4.0"
+        }
+      },
+      "libtorch-cuda-12.1-linux-x64-part1/2.4.0": {
+        "native": {
+          "runtimes/linux-x64/native/libbackend_with_compiler.so": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libc10.so": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libc10_cuda.so": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libc10d_cuda_test.so": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libcaffe2_nvrtc.so": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libcublas-37d11411.so.12": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libcudart-9335f6a2.so.12": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libcudnn.so.9": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libcudnn_engines_runtime_compiled.so.9": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libcudnn_graph.so.9": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libcudnn_ops.so.9": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libgomp-98b21ff3.so.1": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libjitbackend_test.so": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libnnapi_backend.so": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libnvToolsExt-847d78f2.so.1": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libtorch_global_deps.so": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libtorchbind_test.so": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "libtorch-cuda-12.1-linux-x64-part2-fragment1/2.4.0": {},
+      "libtorch-cuda-12.1-linux-x64-part2-primary/2.4.0": {
+        "native": {
+          "runtimes/linux-x64/native/libtorch_cpu.so": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libtorch_cpu.so.sha": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "libtorch-cuda-12.1-linux-x64-part3-fragment1/2.4.0": {},
+      "libtorch-cuda-12.1-linux-x64-part3-fragment2/2.4.0": {},
+      "libtorch-cuda-12.1-linux-x64-part3-fragment3/2.4.0": {},
+      "libtorch-cuda-12.1-linux-x64-part3-fragment4/2.4.0": {},
+      "libtorch-cuda-12.1-linux-x64-part3-primary/2.4.0": {
+        "native": {
+          "runtimes/linux-x64/native/libtorch_cuda.so": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libtorch_cuda.so.sha": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "libtorch-cuda-12.1-linux-x64-part4-fragment1/2.4.0": {},
+      "libtorch-cuda-12.1-linux-x64-part4-primary/2.4.0": {
+        "native": {
+          "runtimes/linux-x64/native/libcudnn_engines_precompiled.so.9": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libcudnn_engines_precompiled.so.9.sha": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "libtorch-cuda-12.1-linux-x64-part5-fragment1/2.4.0": {},
+      "libtorch-cuda-12.1-linux-x64-part5-primary/2.4.0": {
+        "native": {
+          "runtimes/linux-x64/native/libcublasLt-f97bfc2c.so.12": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libcublasLt-f97bfc2c.so.12.sha": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "libtorch-cuda-12.1-linux-x64-part6/2.4.0": {
+        "native": {
+          "runtimes/linux-x64/native/libcudnn_cnn.so.9": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libcudnn_heuristic.so.9": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libnvrtc-b51b459d.so.12": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libtorch_python.so": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "libtorch-cuda-12.1-linux-x64-part7-fragment1/2.4.0": {},
+      "libtorch-cuda-12.1-linux-x64-part7-primary/2.4.0": {
+        "native": {
+          "runtimes/linux-x64/native/libtorch_cuda_linalg.so": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libtorch_cuda_linalg.so.sha": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "libtorch-cuda-12.1-linux-x64-part8/2.4.0": {
+        "native": {
+          "runtimes/linux-x64/native/libcudnn_adv.so.9": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libnvrtc-builtins.so": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libshm.so": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libtorch.so": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ML.Tokenizers/0.22.0-preview.24378.1": {
+        "dependencies": {
+          "Google.Protobuf": "3.21.9",
+          "System.Text.Json": "6.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.ML.Tokenizers.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "0.2200.24.37801"
+          }
+        }
+      },
+      "SharpZipLib/1.4.0": {
+        "runtime": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "assemblyVersion": "1.4.0.12",
+            "fileVersion": "1.4.0.12"
+          }
+        }
+      },
+      "SkiaSharp/2.88.6": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.6",
+          "SkiaSharp.NativeAssets.macOS": "2.88.6"
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.6.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.6": {},
+      "SkiaSharp.NativeAssets.Win32/2.88.6": {},
+      "System.Memory/4.5.5": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Encodings.Web/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Json/6.0.1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        }
+      },
+      "TorchSharp/0.103.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.21.9",
+          "SharpZipLib": "1.4.0",
+          "SkiaSharp": "2.88.6",
+          "System.Memory": "4.5.5"
+        },
+        "runtime": {
+          "lib/net6.0/TorchSharp.dll": {
+            "assemblyVersion": "0.103.0.0",
+            "fileVersion": "0.103.0.0"
+          }
+        },
+        "native": {
+          "runtimes/linux-x64/native/libLibTorchSharp.so": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NanoGPT2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.21.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OTpFujTgkmqMLbg3KT7F/iuKi1rg6s5FCS2M9XcVLDn40zL8wgXm37CY/F6MeOEXKjdcnXGCN/h7oyMkVydVsg==",
+      "path": "google.protobuf/3.21.9",
+      "hashPath": "google.protobuf.3.21.9.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dORoQeSlG+w2C8w56N9BVVaS+4tOr4+hvzzt6InZA50Z1VeyIDauBxl+UpyqqyIvhZMNwmxkRz2/lIxaP/HfPA==",
+      "path": "libtorch-cuda-12.1-linux-x64/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part1/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FBVxNgTWkQwnUTKVhw/RK7uN5RtdPpUziaiHBnxhCuE0xqmsC+DsAPy1cCNybo1vj3AT05hsgzHthudCGC3HyQ==",
+      "path": "libtorch-cuda-12.1-linux-x64-part1/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part1.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part2-fragment1/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XehKEsbU4DlVTqW4cxHorfOoxd1Jx7iC8VFzVS2KCDL5BkG7yRGJG1EofD/u4uCLaIj3TqqUnpyXIfB6IX+5AQ==",
+      "path": "libtorch-cuda-12.1-linux-x64-part2-fragment1/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part2-fragment1.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part2-primary/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XjgJPYmexq55Cv/xBX4vO9UMIBI4XH4ymvt5qLcAdhfbKmuP2iqQwhPSw6+fMRK3+CONnTZDvzg5XS0jkKnsRw==",
+      "path": "libtorch-cuda-12.1-linux-x64-part2-primary/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part2-primary.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part3-fragment1/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WvuCzq51t8X+0p/pHMzXRDnMou14kEovSWV0uFA2NQ5Io1467CJXImqOcsBC5uHGHfEHeNq+Ceklnh02G0f6Xw==",
+      "path": "libtorch-cuda-12.1-linux-x64-part3-fragment1/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part3-fragment1.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part3-fragment2/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IpE5V50+s30OIeCwYnbuEFDY2uSiY6WpL88LmirC4ClVrkKbkAfYRD3yHz7Rv6+zjaXqVN/QAG5VX3AZbMmIDA==",
+      "path": "libtorch-cuda-12.1-linux-x64-part3-fragment2/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part3-fragment2.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part3-fragment3/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2KQyg0u+ZfTfkWTxkJZXbeb5MPDUoESSXhvi0DgdlQ6WOiDChZP3HXa8EJQV5iMPaLci+UDLUA1zEUYfvy88Vw==",
+      "path": "libtorch-cuda-12.1-linux-x64-part3-fragment3/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part3-fragment3.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part3-fragment4/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RulUm2yxYEK26G9K/yqeGC63DFs6Lo6BhmFbsI1p/WLuZrlafG+kzqWtsC2janSsKPJfH3dI9WELy6fiVL5X+w==",
+      "path": "libtorch-cuda-12.1-linux-x64-part3-fragment4/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part3-fragment4.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part3-primary/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Iw0yqzc/Oc4XnjhGhJY9Z53R1i9Yi0jTw0hFWgY6LIuxoESkjPyIoocGcCNkOsS7WSyeDfljgN/fXijyWRpbUg==",
+      "path": "libtorch-cuda-12.1-linux-x64-part3-primary/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part3-primary.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part4-fragment1/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kWwR67/+UIHomGT1RPxhUyjs2EJBWj1sVdz3ZOXd+TveKX4GxLy37rgj57MBohUVE97TIF1WJ+X5s3vAGXIUww==",
+      "path": "libtorch-cuda-12.1-linux-x64-part4-fragment1/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part4-fragment1.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part4-primary/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kj/Z5eC+FCo3IDNET2ZbezWRlGLxnqsvHEI1YE+PbCp80Tn5rvP8/KbzguJ8P++S5uuZfuAc7boummzeu1V/Nw==",
+      "path": "libtorch-cuda-12.1-linux-x64-part4-primary/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part4-primary.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part5-fragment1/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VuLFH7KWV8LZzcDkDpg/5AovmgS0D1A9pjJPPxwAXGfL8kbkiPxnQte2SL9/ZPODmUFaKB0WuuE4kMoAE0cquQ==",
+      "path": "libtorch-cuda-12.1-linux-x64-part5-fragment1/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part5-fragment1.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part5-primary/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OaFhlZ8LI/E5tj5ljEdd0Bs/3HreM1Brrpl1eusoAVKPMX0e4zd4lGAe/Hvp9gK3DEqd2iR+Pn+xgvBV99xSYw==",
+      "path": "libtorch-cuda-12.1-linux-x64-part5-primary/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part5-primary.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part6/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YH39T3MwcjzjsTvE7kSG9Danvc5JYJmKOnEeXknsnnyvQdWb32TCMlReqKnmCw1bODhU5cViH32RV0cYRafXBg==",
+      "path": "libtorch-cuda-12.1-linux-x64-part6/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part6.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part7-fragment1/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xDdftyBIsXdzfDfI+UK+t16tIylkUqeerF7UWyr4Bs+5x7hoRU9P1Tah7cLleFyVKzCCQuoiKpitTStzj85FBA==",
+      "path": "libtorch-cuda-12.1-linux-x64-part7-fragment1/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part7-fragment1.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part7-primary/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fdr+ubWxm8EHOV1rZ8tqYIXdESLWCULXLPdT5KzeBe+BXEFHGWZMwJVQPWGtNot+9qAc4p2uDTynSUpAwBhecg==",
+      "path": "libtorch-cuda-12.1-linux-x64-part7-primary/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part7-primary.2.4.0.nupkg.sha512"
+    },
+    "libtorch-cuda-12.1-linux-x64-part8/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t4Z5CMAI159EtmaEhdFOI1D43dOW9825yFxhSptre8XWlSXUvud/CkJkN+0zETLEHT73gjHZqdzWW4jevJU75w==",
+      "path": "libtorch-cuda-12.1-linux-x64-part8/2.4.0",
+      "hashPath": "libtorch-cuda-12.1-linux-x64-part8.2.4.0.nupkg.sha512"
+    },
+    "Microsoft.ML.Tokenizers/0.22.0-preview.24378.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f+iWRizqQtf5Y1ikhWreKUryHizbciL/mhh5fS2+hbu5ECgth2ZbI7KSi9otQOe3z3PFPp7USgUnyFIVav2Qhg==",
+      "path": "microsoft.ml.tokenizers/0.22.0-preview.24378.1",
+      "hashPath": "microsoft.ml.tokenizers.0.22.0-preview.24378.1.nupkg.sha512"
+    },
+    "SharpZipLib/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CdkbBSPIpHD8xBlu+8kDJiqc1Tf9iV89BObnqcvEbwysXSj5h1MfaeLgeeaxPZmi7CTJO8FDofBBNxBW0Vml7A==",
+      "path": "sharpziplib/1.4.0",
+      "hashPath": "sharpziplib.1.4.0.nupkg.sha512"
+    },
+    "SkiaSharp/2.88.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wdfeBAQrEQCbJIRgAiargzP1Uy+0grZiG4CSgBnhAgcJTsPzlifIaO73JRdwIlT3TyBoeU9jEqzwFUhl4hTYnQ==",
+      "path": "skiasharp/2.88.6",
+      "hashPath": "skiasharp.2.88.6.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.macOS/2.88.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sko9LFxRXSjb3OGh5/RxrVRXxYo48tr5NKuuSy6jB85GrYt8WRqVY1iLOLwtjPiVAt4cp+pyD4i30azanS64dw==",
+      "path": "skiasharp.nativeassets.macos/2.88.6",
+      "hashPath": "skiasharp.nativeassets.macos.2.88.6.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/2.88.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7TzFO0u/g2MpQsTty4fyCDdMcfcWI+aLswwfnYXr3gtNS6VLKdMXPMeKpJa3pJSLnUBN6wD0JjuCe8OoLBQ6cQ==",
+      "path": "skiasharp.nativeassets.win32/2.88.6",
+      "hashPath": "skiasharp.nativeassets.win32.2.88.6.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "path": "system.text.encodings.web/6.0.0",
+      "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X3cTdM+jna1YyfTUzToW7aVgINFv7R1W4+1+3hua/YCyLjApPoR8fd+2Cep9DbfYjbv+rBx4K6dlmAWEJr9AHg==",
+      "path": "system.text.json/6.0.1",
+      "hashPath": "system.text.json.6.0.1.nupkg.sha512"
+    },
+    "TorchSharp/0.103.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pLn+lMwa/pOuCaEk/d12cTDsngvu1fmADDURRaF1Ia+f4SusOC9sBmkze8dXi0MhiOrUggPVFrzSjfwZYRPSzw==",
+      "path": "torchsharp/0.103.0",
+      "hashPath": "torchsharp.0.103.0.nupkg.sha512"
+    }
+  }
+}
