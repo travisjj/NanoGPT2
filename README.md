@@ -33,8 +33,8 @@ Install-Package libtorch-cpu-win-x64 -Version 2.4.0
 - Windows GPU (Note: this requires a good amount of space)  
 Install-Package libtorch-cuda-12.1-win-x64 -Version 2.4.0
 
-- Linux CPU
+- Linux CPU  
 Install-Package libtorch-cpu-linux-x64 -Version 2.4.0
 
-- Linux GPU (Note: this requires a good amount of space)
+- Linux GPU (Note: this requires a good amount of space)  
 Install-Package libtorch-cuda-12.1-linux-x64 -Version 2.4.0
